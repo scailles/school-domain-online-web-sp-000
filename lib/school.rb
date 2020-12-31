@@ -19,8 +19,9 @@ class School
   
   end
   
-  def grade
-    @grade
+  def grade(number)
+    @grade(number)
+  end
   
   
 end
