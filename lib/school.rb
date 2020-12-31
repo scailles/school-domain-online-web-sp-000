@@ -11,7 +11,8 @@ class School
   end
   
   def add_student(student,grade)
-    @stud
+    @student = student
+    
   
   
 end
