@@ -13,7 +13,11 @@ class School
   def add_student(student,grade)
     @student = student
     if @roster.include?(grade)== false
-      
+      @roster[]=grade
+    else
+      @roster[grade] << student
+    end
+  end
   
   
 end
