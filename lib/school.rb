@@ -1,6 +1,6 @@
 class School
   
-  def school(name)
+  def school(name,roster)
     @name=name
     roster=[]
   end
